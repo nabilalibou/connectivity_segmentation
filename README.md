@@ -27,6 +27,8 @@ connectivity_segmentation.segmentation.Segmentation
 
 We start by fitting the modified kmeans algorithm to a dataset using 
 the ModKMeans.fit() method before the ModKMeans.predict() method which will return the microstate Segmentation object.
+The Segmentation class is an adaptation of the _BaseSegmentation class from the library pycrostate [5] 
+(https://github.com/vferat/pycrostates, Copyright (c) 2020, Victor Férat, All rights reserved.)
 The segmentation can be visualised using the method segmentation.Segmentation.plot().
 
 The package implement other methods and functions to compute, visualise and save various metrics and statistics to 
@@ -49,3 +51,7 @@ neuronal networks: a review. NeuroImage, 180:577–593, 2018. doi:10.1016/j.neur
 <a id="4">[4]</a>
 Micah M. Murray; Denis Brunet; Christoph M. Michel (2008). Topographic ERP Analyses: A Step-by-Step Tutorial Review. , 
 20(4), 249–264. doi:10.1007/s10548-008-0054-5
+
+<a id="4">[5]</a>
+Victor Férat, Mathieu Scheltienne, rkobler, AJQuinn, & Lou. (2023). vferat/pycrostates: 0.4.1 (0.4.1). Zenodo. 
+https://doi.org/10.5281/zenodo.10176055
