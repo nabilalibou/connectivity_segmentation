@@ -21,8 +21,8 @@ To do
 
 connectivity-segmentation relies on 2 convenient classes: 
 ```
-connectivity-segmentation.kmeans.ModKMeans 
-connectivity-segmentation.segmentation.Segmentation
+connectivity_segmentation.kmeans.ModKMeans 
+connectivity_segmentation.segmentation.Segmentation
 ```
 
 We start by fitting the modified kmeans algorithm to a dataset using 
