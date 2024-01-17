@@ -225,7 +225,8 @@ class ModKmeans:
     ) -> NDArray[int]:
         """Apply smoothing.
 
-        Same algorithm as in the library pycrostate (https://github.com/vferat/pycrostates) which is adapted from [1].
+        Algorithm taken from the library pycrostate [1] (https://github.com/vferat/pycrostates, Copyright (c) 2020,
+        Victor Férat, All rights reserved.) which is adapted from [2].
 
         factor : int
             Factor used for label smoothing. ``0`` means no smoothing. Default to 0.
@@ -244,7 +245,10 @@ class ModKmeans:
 
         References
         ----------
-        .. [1] R. D. Pascual-Marqui, C. M. Michel and D. Lehmann.
+           [1] Victor Férat, Mathieu Scheltienne, rkobler, AJQuinn, & Lou. (2023).
+               vferat/pycrostates: 0.4.1 (0.4.1).
+               Zenodo. https://doi.org/10.5281/zenodo.10176055
+           [2] R. D. Pascual-Marqui, C. M. Michel and D. Lehmann.
                Segmentation of brain electrical activity into microstates:
                model estimation and validation.
                IEEE Transactions on Biomedical Engineering,

@@ -12,6 +12,16 @@ from connectivity_segmentation.utils.checks import _check_type
 
 
 class Segmentation:
+    """
+    Class for a connectivity clusters segmentation.
+    Adaptation of the _BaseSegmentation class from the library pycrostate [1] (https://github.com/vferat/pycrostates,
+    Copyright (c) 2020, Victor Férat, All rights reserved.)
+    References
+    ----------
+       [1] Victor Férat, Mathieu Scheltienne, rkobler, AJQuinn, & Lou. (2023).
+           vferat/pycrostates: 0.4.1 (0.4.1).
+           Zenodo. https://doi.org/10.5281/zenodo.10176055
+    """
     def __init__(
         self,
         labels: NDArray[int],
@@ -227,7 +237,6 @@ class Segmentation:
         _check_type(predict_parameters, (dict, None), "predict_parameters")
         if predict_parameters is None:
             return None
-        # valid keys from pycrostates prediction
         valid_keys = (
             "factor",
             "tol",

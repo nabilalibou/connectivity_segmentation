@@ -1,4 +1,4 @@
-"""Utility functions for checking types and values. Inspired from Pycrostates and MNE."""
+"""Utility functions for checking types and values."""
 
 import operator
 import os
