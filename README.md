@@ -12,10 +12,12 @@ identify and segment the connectivity microstates [[3]](#3)[[4]](#4).
 </p>
 
 <center>
-<em>Result of the connectivity spatiotemporal segmentation process applied to adjacency matrix from subjects who performed 
-a picture recognition and naming task (figure taken from [2]).  
+<em>
+Result of the connectivity spatiotemporal segmentation process applied to adjacency matrix from subjects who performed 
+a picture recognition and naming task.<br>
 Illustrates the Event related potentials for the picture naming task and the obtained sequential clusters associated 
-to their corresponding brain connectivity networks.<em>
+to their corresponding brain connectivity networks. <br>Figure taken from [2].
+</em>
 </center>
 
 # Installation
