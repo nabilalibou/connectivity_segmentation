@@ -6,11 +6,6 @@ Python library to track the spatiotemporal dynamics of brain network based on a 
 In order to identify the different clusters sequentially involved in the cognitive process, the algorithm aims at 
 identify and segment the connectivity microstates [[3]](#3)[[4]](#4).
 
-
-## Documentation
-
-To do
-
 # Installation
 
 ```
