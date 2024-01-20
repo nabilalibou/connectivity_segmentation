@@ -1,10 +1,21 @@
 # Connectivity Microstates Segmentation
 
 Python library to track the spatiotemporal dynamics of brain network based on a modified k-means clustering algorithm 
-[[1]](#1) adapted to EEG connectivity graphs with a methodology similar to [[2]](#2). 
+[[1]](#1) adapted to EEG connectivity graphs with a methodology similar to [[2]](#2) (see Figure \ref{fig1}). 
 
 In order to identify the different clusters sequentially involved in the cognitive process, the algorithm aims at 
 identify and segment the connectivity microstates [[3]](#3)[[4]](#4).
+
+<a id="fig1"> </a>
+<p align="center">
+<img src="docs\segmentation_example.png" width="720" height="518">
+</p>
+
+<center>
+*Result of the connectivity spatiotemporal segmentation process applied to adjacency matrix from subjects who performed 
+a picture recognition and naming task (figure taken from [[2]](#2)). Illustrates the Event related potentials for the 
+picture naming task and the obtained sequential clusters associated to their corresponding brain connectivity networks.*
+</center>
 
 # Installation
 
