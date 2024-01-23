@@ -24,7 +24,8 @@ Figure taken from [2].
 # Installation
 
 ```
- pip -r requirements.txt
+git clone https://github.com/nabilalibou/connectivity_segmentation.git
+pip install -r requirements.txt
 ```
 
 # How to use
