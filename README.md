@@ -16,7 +16,7 @@ Result of the connectivity spatiotemporal segmentation process applied to adjace
 a picture recognition and naming task.  
 Illustrates the Event related potentials for the picture naming task and the obtained sequential clusters associated 
 to their corresponding brain connectivity networks.  
-Figure taken from [2].
+Figure taken from [[2]](#2).
 </div>
 <br/>
 
