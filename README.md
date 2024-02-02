@@ -42,7 +42,7 @@ The segmentation can be visualised using the method segmentation.Segmentation.pl
 The package implement other methods and functions to compute, visualise and save various metrics and statistics to 
 evaluate the clustering solution.
 
-_Note: The Segmentation class is an adaptation of the \_BaseSegmentation class from the library pycrostate [5] 
+_Note: The Segmentation class is an adaptation of the \_BaseSegmentation class from the library pycrostate [[5]](#5) 
 (https://github.com/vferat/pycrostates, Copyright (c) 2020, Victor Férat, All rights reserved.)_
 
 # References
