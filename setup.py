@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name="connectivity-segmentation",
     version="0.0.1",
-    url="https://github.com/Nabil-AL/connectivity_segmentation.git",
+    url="https://github.com/nabilalibou/connectivity_segmentation.git",
     packages=find_packages(),
     license="MIT License",
     author="Nabil ALIBOU",
