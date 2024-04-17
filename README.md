@@ -36,8 +36,8 @@ connectivity_segmentation.segmentation.Segmentation
 ```
 
 We start by fitting the modified kmeans algorithm to a dataset using 
-the ModKMeans.fit() method before the ModKMeans.predict() method which will return the microstate Segmentation object.   
-The segmentation can be visualised using the method segmentation.Segmentation.plot().
+the ```ModKMeans.fit()``` method before the ```ModKMeans.predict()``` method which will return the microstate ```Segmentation``` object.   
+The segmentation can be visualised using the method ```segmentation.Segmentation.plot()```.
 
 The package implement other methods and functions to compute, visualise and save various metrics and statistics to 
 evaluate the clustering solution.
