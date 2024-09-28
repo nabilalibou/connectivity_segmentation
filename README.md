@@ -1,12 +1,27 @@
 # Connectivity Microstates Segmentation
 
 Python library to track the spatiotemporal dynamics of brain network based on a modified k-means clustering algorithm 
-[[1]](#1) adapted to EEG connectivity graphs with a methodology similar to [[2]](#2) (see [Figure 1](#fig1)). 
+[[1]](#1) adapted to EEG connectivity graphs with a methodology similar to [[2]](#2) (see [Figure 1](#fig1) and [Figure 2](#fig2)). 
 
 In order to identify the different clusters sequentially involved in the cognitive process, the algorithm aims at 
 identify and segment the connectivity microstates [[3]](#3)[[4]](#4).  
 <br/><br/>
 <a id="fig1"> </a>
+<p align="center">
+<img src="docs\Kmeans_diagram.png" width="1000" height="448">
+</p>
+
+<div align="center">
+Methodology of the Modified K-Means Clustering adapted to connectivity graphs.  
+
+Initialise a number of cluster, select randomly K connectivity graphs (aka adjacent matrices) Gk, compute the spatial correlation between them and every others matrices from the connectivity graph pool.  
+Each graph are assigned to cluster with which they had been the most correlated. Update the centroids of the clusters by taking the mean graph of all assigned graph until the global explained variance (GEV) explained by each cluster (for a certain K) converges.  
+Use a criterion like the cross validation criterion which is a ratio GEV to number of clusters to determine a good trade-off between variance explained and number of clusters.  
+</div>
+<br/>
+
+<br/><br/>
+<a id="fig2"> </a>
 <p align="center">
 <img src="docs\segmentation_example.png" width="720" height="518">
 </p>
