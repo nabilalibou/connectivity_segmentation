@@ -8,7 +8,7 @@ identify and segment the connectivity microstates [[3]](#3)[[4]](#4).
 <br/><br/>
 <a id="fig1"> </a>
 <p align="center">
-<img src="docs\Kmeans_diagram.png" width="1000" height="448">
+<img src="docs\Kmeans_diagram.png" width="800" height="358">
 </p>
 
 <div align="center">
